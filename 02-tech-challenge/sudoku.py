@@ -24,7 +24,7 @@ FONT = pygame.font.Font(None, 36)
 
 
 # Tabuleiro inicial
-SUDOKU_BASE = Sudoku.random(0.9)
+SUDOKU_BASE = Sudoku.random(0.7)
 
 FIXED_MASK = np.array(SUDOKU_BASE) != 0  # Máscara para números fixos
 
