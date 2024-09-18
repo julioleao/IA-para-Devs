@@ -51,7 +51,7 @@ Abra o arquivo `sudoku.py` e ajustes as configurações conforme necessário
 | MUTATE_RATE     | 0.9                | A taxa de mutação (1.0 sempre soferá mutação)                                                                                                                                                                                                                           |
 | NUM_GENERATIONS | 2000               | O tamanho máximo de gerações para que o algoritmo encerre caso não encontre um resultado perfeito                                                                                                                                                                       |
 | ELITISM_COUNT   | 5                  | O número das melhores populações (selecionada por elitismo) que serão usadas no cruzamento                                                                                                                                                                              |
-| SUDOKU_BASE     | Sudoku.random(0.7) | Utiliza a classe Sudoku para gerar o tabuleiro inicial com base na dificuldade informada<br><br> - Sudoku.easy()<br> - Sudoku.medium()<br> - Sudoku.hard()<br> - Sudoku.evil()<br> - Sudoku.random(difficulty: float) <br><br> Valor 0 gera um tabuleiro já solucionado |
+| SUDOKU_BASE     | Sudoku.random(0.5) | Utiliza a classe Sudoku para gerar o tabuleiro inicial com base na dificuldade informada<br><br> - Sudoku.easy()<br> - Sudoku.medium()<br> - Sudoku.hard()<br> - Sudoku.evil()<br> - Sudoku.random(difficulty: float) <br><br> Valor 0 gera um tabuleiro já solucionado |
 
 Feito a configuração, basta executar o arquivo `sudoku.py`
 

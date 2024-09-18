@@ -53,6 +53,6 @@ class Sudoku:
             [0, 0, 0, 0, 6, 0, 0, 0, 0],
         ]
 
-    def random(difficult=0.7):
+    def random(difficult=0.5):
         g = sudokum.generate(mask_rate=difficult)
         return g

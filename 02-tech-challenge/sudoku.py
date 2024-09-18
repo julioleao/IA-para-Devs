@@ -6,7 +6,7 @@ from board import Sudoku
 # Configurações
 GRID_SIZE = 9
 POP_SIZE = 100
-MUTATION_RATE = 0.9
+MUTATION_RATE = 0.8
 NUM_GENERATIONS = 2000
 ELITISM_COUNT = 5
 BEST_SOLUTION = 3 * GRID_SIZE * GRID_SIZE
@@ -24,7 +24,7 @@ FONT = pygame.font.Font(None, 36)
 
 
 # Tabuleiro inicial
-SUDOKU_BASE = Sudoku.random(0.7)
+SUDOKU_BASE = Sudoku.random(0.5)
 
 FIXED_MASK = np.array(SUDOKU_BASE) != 0  # Máscara para números fixos
 
